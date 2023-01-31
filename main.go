@@ -9,6 +9,7 @@ import (
 
 func init() {
 	godotenv.Load()
+	config.InitLog()
 }
 
 func main() {
